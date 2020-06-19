@@ -1,0 +1,25 @@
+{
+    "name": "bluetooth",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
+        "gatorMicrophone": "github:sparkfun/pxt-gator-microphone#v1.0.20",
+        "bitcommander": "github:4tronix/bitcommander#1.1.0",
+        "pxt-kitronik-klef-piano": "github:kitronikltd/pxt-kitronik-klef-piano#v0.0.2",
+        "bluetooth": "*",
+        "pxt-kitronik-servo-lite": "github:kitronikltd/pxt-kitronik-servo-lite#v1.0.5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
